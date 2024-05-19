@@ -9,7 +9,7 @@ This metric will not be tied to the language, paradigm, etc.
 
 ### Example:
 
-*Disclaimer – this example just showing way of caclucating, real measurement using a lot more parameters rather than style of method arguments. For each project set of rules will be different.*
+*Warning – This example just shows a measurement method. The set of rules will be different for each project.*
 
 We're having 10 methods in the project.
 
@@ -47,13 +47,13 @@ We have another project which histogram looks like this
 
 ![Screenshot20240519at134233.png](assets/histogram-2.png)
 
-Now we can say, that in first case quality of code much higher then in second one. Code in first project was written more consistenly. In term of code quality for set of absolutely different projects we can't stand on **spiceific rules**. The code will be more readable and maintainable just by being consistent; with one style, with set of desing rules(that are defined in some place)[](https://) which will restrict doing wrong design desicions. If we take a look at our example. We can say that perfect project will have only the one style of passing aruments and doesn't metter wich one it will be. Like `doSmth1` or `doSmth3`, or something else. Only one thing is important here – consitency. When we have a close to`100%` hit of some case, it's says that project have:
+Now we can say that in the first case, the quality of the code is much higher than in the second. The code in the first project was written more *consistently*. As for the quality of the code for many completely different projects, we cannot follow **certain rules**. The code will be more readable and maintainable, just if it is consistent; with one style, with a set of design rules (which are defined in some place) that will limit the execution of incorrect design decisions. If we look at our example. We can say that an ideal project will have only one style of argument passing, and it doesn't matter what style it will be. For example, `doSmth1` or `doSmth3`, or something else. Only one thing is important here – *consistency*. When we get an almost 100% match on a case, it means that the project has:
 
 1. Linting or auto checkstyle check built into CI
 2. Good code reveiw process
 
 Or both of them.
 
-### How to define "consistency"
+### How to define consistency
 
-To define *consistency* of the project we can scan it's code base. During the scan process we need to determine a several approaches, desing principles and etc. that were used. When we have a set of rules for speciefic project appears the opportunity to count how code was distributed grouping by this rules. If destribution looks like second example, we can say that code inconsistent and code quality is low.
+To determine the consistency of a project, we can scan its codebase. During the scanning process, we need to identify several approaches, design principles, etc. that have been used. When we have a set of rules for a specific project, it becomes possible to calculate how the code was distributed, grouping according to these rules. If the distribution looks like in the second example, we can say that the code is not consistent and the code quality is low. The next question is how to define these rules? The problems of classifying things are generally the most difficult. It would be impossible to create such an algorithm, but LLM models could be a good solution for classifying rules.
