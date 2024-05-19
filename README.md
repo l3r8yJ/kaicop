@@ -1,8 +1,8 @@
 **KaiCop** stands for [KaiCode](https://www.kaicode.org/2024.html) and [Cop](https://en.wikipedia.org/wiki/Cop).
 
 To measure code quality in a large number of projects,
-we need to have some metric that is not tied to the programming language and its paradigm.
-We can't rely on any specific rules, because the rules of writing quality code in procedural
+we need to have some metric not tied to the programming language and its paradigm.
+We can't rely on any specific rules because, for example, the rules of writing quality code in procedural
 style and functional style will be completely different.
 To solve this problem, KaiCop proposes the idea of comparing code _consistency_ within a project.
 This metric will not be tied to the language, paradigm, etc.
