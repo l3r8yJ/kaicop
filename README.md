@@ -47,12 +47,12 @@ We have another project which histogram looks like this
 
 ![Screenshot20240519at134233.png](assets/histogram-2.png)
 
-Now we can say, that in first case quality of code much higher then in second one. Code in first project was written more consistenly. In term of code quality for set of absolutely different projects we can't stand on **spiceific rules**. The code will be more readable and maintainable just by being consistent; with one style, with set of desing rules*(that are defined in some place)* which will restrict doing wrong design desicions. If we take a look at our example. We can say that perfect project will have only the one style of passing aruments and doesn't metter wich one it will be. Like `doSmth1` or `doSmth3`, or something else. Only one thing is important here – consitency. When we have a close to`100%` hit of some case, it's says that project have:
+Now we can say, that in first case quality of code much higher then in second one. Code in first project was written more consistenly. In term of code quality for set of absolutely different projects we can't stand on **spiceific rules**. The code will be more readable and maintainable just by being consistent; with one style, with set of desing rules(that are defined in some place)[](https://) which will restrict doing wrong design desicions. If we take a look at our example. We can say that perfect project will have only the one style of passing aruments and doesn't metter wich one it will be. Like `doSmth1` or `doSmth3`, or something else. Only one thing is important here – consitency. When we have a close to`100%` hit of some case, it's says that project have:
 
 1. Linting or auto checkstyle check built into CI
 2. Good code reveiw process
 
-Or both of them. 
+Or both of them.
 
 ### How to define "consistency"
 
