@@ -47,10 +47,10 @@ We have another project which histogram looks like this
 
 ![Screenshot20240519at134233.png](assets/histogram-2.png)
 
-Now we can say that in the first case, the quality of the code is much higher than in the second. The code in the first project was written more *consistently*. As for the quality of the code for many completely different projects, we cannot follow **certain rules**. The code will be more readable and maintainable, just if it is consistent; with one style, with a set of design rules (which are defined in some place) that will limit the execution of incorrect design decisions. If we look at our example. We can say that an ideal project will have only one style of argument passing, and it doesn't matter what style it will be. For example, `doSmth1` or `doSmth3`, or something else. Only one thing is important here – *consistency*. When we get an almost 100% match on a case, it means that the project has:
+Now we can say that in the first case, the quality of the code is much higher than in the second. The code in the first project was written more *consistently*. As for the quality of the code for many **completely different** projects, we cannot follow **certain rules**. The code will be more readable and maintainable, just if it is consistent; with one style, with a set of design rules (which are defined in some place) that will limit the execution of incorrect design decisions. If we look at our example. We can say that an ideal project will have only one style of argument passing, and it doesn't matter what style it will be. For example, `doSmth1` or `doSmth3`, or something else. Only one thing is important here – *consistency*. When we get an almost 100% match on a case, it means that the project has:
 
 1. Linting or auto checkstyle check built into CI
-2. Good code reveiw process
+2. Good code review process
 
 Or both of them.
 
